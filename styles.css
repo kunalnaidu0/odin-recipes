@@ -1,20 +1,35 @@
-* {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 25px;
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
-img {
-    width: 400px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
+h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 400%;
+    margin: 2%;
+}
+.recipe-list{
+    text-align: center;
+    margin: 20px auto;
+}
+.recipes{
+    display: block;
+    text-align: center;
+}
+
+img{
+   width: 500px;
+   height: auto; 
+}
+
+.panel{
+    display: inline-block;
+    height: auto;
+    width: 23%;
+    margin: 2% 10%;
+}
+
+.section{
+    margin: 0 10% 0 20%;
+
 }
